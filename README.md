@@ -1,3 +1,104 @@
+# For this assignment I use a mock API from "mockapi.io"
+Here is the API [https://66cff61d181d059277dcc21e.mockapi.io/api/files/files]
+
+Here is the Data in the API
+
+[
+  {
+    "createdAt": 1724926836,
+    "name": "Documents",
+    "data": [
+      {
+        "id": "1",
+        "name": "file_1.txt"
+      },
+      {
+        "id": "2",
+        "name": "file_2.docx"
+      },
+      {
+        "id": "3",
+        "name": "file_3.pdf"
+      },
+      {
+        "id": "13",
+        "name": "report.xlsx"
+      },
+      {
+        "id": "14",
+        "name": "presentation.pptx"
+      },
+      {
+        "id": "15",
+        "name": "notes.doc"
+      }
+    ],
+    "id": "1"
+  },
+  {
+    "createdAt": 1724926776,
+    "name": "Photos",
+    "data": [
+      {
+        "id": "4",
+        "name": "family.png"
+      },
+      {
+        "id": "5",
+        "name": "location.jpg"
+      },
+      {
+        "id": "6",
+        "name": "trip.jpeg"
+      }
+    ],
+    "id": "2"
+  },
+  {
+    "createdAt": 1724926716,
+    "name": "Videos",
+    "data": [
+      {
+        "id": "7",
+        "name": "trip.mp4"
+      },
+      {
+        "id": "8",
+        "name": "marriage.mp4"
+      },
+      {
+        "id": "9",
+        "name": "birthday.mp4"
+      }
+    ],
+    "id": "3"
+  },
+  {
+    "createdAt": 1724926656,
+    "name": "Music",
+    "data": [
+      {
+        "id": "10",
+        "name": "song.mp3"
+      },
+      {
+        "id": "11",
+        "name": "kalki.mp3"
+      },
+      {
+        "id": "12",
+        "name": "kalki_3.mp3"
+      }
+    ],
+    "id": "4"
+  }
+]
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
