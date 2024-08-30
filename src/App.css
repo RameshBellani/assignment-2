@@ -1,0 +1,454 @@
+
+.breadcrumb {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.breadcrumb li {
+  margin-right: 5px;
+}
+
+.breadcrumb button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.breadcrumb button:hover {
+  text-decoration: underline;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.breadcrumb {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.breadcrumb li {
+  margin-right: 5px;
+}
+
+.breadcrumb button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.breadcrumb button:hover {
+  text-decoration: underline;
+}
+
+.division1, .division2 {
+  margin-top: 20px;
+  background-color: #ddd;
+}
+
+.division2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.division2 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.division2 li button {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: hsl(211, 30%, 61%);
+}
+
+.breadcrumb {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+}
+
+.breadcrumb li {
+  margin-right: 5px;
+}
+
+.breadcrumb button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.division1, .division2 {
+  margin-bottom: 20px;
+}
+
+.file-table, .selected-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-table th, .selected-table th {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.file-table td, .selected-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.top-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.top-checkbox button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.empty-message {
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+.top-checkbox button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+
+.app-container {
+  padding: 20px;
+}
+
+.division1, .division2 {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.selected-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.selected-table th, .selected-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.selected-table th {
+  background-color: #f4f4f4;
+}
+
+.top-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.top-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
+
+.file-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.file-table td {
+  vertical-align: middle;
+}
+
+.file-table button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  
+}
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.division1, .division2 {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.file-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+.error-message{
+  
+  text-align: center;
+
+}
+button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.top-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.top-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.top-checkbox button {
+  margin-left: auto;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top-checkbox button:hover {
+  background-color: #0056b3;
+}
+/* Mobile view adjustments */
+@media only screen and (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .division1,
+  .division2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .division1 {
+    margin-bottom: 20px;
+  }
+
+  .division1,
+  .division2 {
+    flex-direction: column;
+  }
+
+  .file-table,
+  .selected-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table thead tr {
+    display: none; /* Hide table headers */
+  }
+
+  table tbody tr {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  table tbody tr td {
+    display: block;
+    text-align: right;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+
+  table tbody tr td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .breadcrumb ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+
+  .breadcrumb button {
+    background: none;
+    border: none;
+    color: #007bff;
+    padding: 0;
+    margin-right: 5px;
+  }
+
+  .top-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .top-checkbox input {
+    width: auto;
+  }
+
+  /* Flexbox for mobile items */
+  .top-checkbox,
+  .file-table,
+  .selected-table {
+    display: block;
+  }
+
+  .file-table th,
+  .file-table td,
+  .selected-table th,
+  .selected-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .file-table td,
+  .selected-table td {
+    padding-left: 50%;
+    text-align: left;
+  }
+
+  .file-table td::before,
+  .selected-table td::before {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .file-table td:nth-of-type(1)::before {
+    content: "Select";
+  }
+
+  .file-table td:nth-of-type(2)::before {
+    content: "Name";
+  }
+
+  .file-table td:nth-of-type(3)::before {
+    content: "Type";
+  }
+
+  .file-table td:nth-of-type(4)::before {
+    content: "Date Modified";
+  }
+
+  .selected-table td:nth-of-type(1)::before {
+    content: "Remove";
+  }
+
+  .selected-table td:nth-of-type(2)::before {
+    content: "Selected File/Folder";
+  }
+
+  .selected-table td:nth-of-type(3)::before {
+    content: "Size";
+  }
+
+  .selected-table td:nth-of-type(4)::before {
+    content: "Date Modified";
+  }
+}
